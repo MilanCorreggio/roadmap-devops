@@ -1,6 +1,8 @@
 === RUN   TestHelloName
---- PASS: TestHelloName (0.00s)
+    greeting_test.go:16: Hello("Gladys") = "Great to see you, %v!", <nil>, want match for `\bGladys\b`, nil
+--- FAIL: TestHelloName (0.00s)
 === RUN   TestHelloEmpty
 --- PASS: TestHelloEmpty (0.00s)
-PASS
-ok  	golang/test	(cached)
+FAIL
+FAIL	golang/test	0.190s
+FAIL
